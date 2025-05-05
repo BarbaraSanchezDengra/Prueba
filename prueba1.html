@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Prueba 1</h1>
+        <p>Completa los huecos en blanco con las palabras correctas:</p>
+        <p id="activity">
+            Un gel es una preparación farmacéutica <input type="text" id="gap1" class="gap">, transparente o translúcida para la aplicación sobre piel o mucosas, en los que la fase líquida se encuentra dispuesta en el interior de una matriz <input type="text" id="gap2" class="gap"> tridimensional. El carbopol 940 es un <input type="text" id="gap3" class="gap"> que requiere un cambio de <input type="text" id="gap4" class="gap"> para gelificar, el metil-parabén sódico es un <input type="text" id="gap5" class="gap">, el colorante aporta propiedades organolépticas, el agua destilada es el <input type="text" id="gap6" class="gap">, la trietanolamina es una <input type="text" id="gap7" class="gap"> que provoca un cambio de pH y el propilenglicol es hidratante (evita que el gel pierda agua).
+        </p>
+        <button onclick="checkAnswers()">Verificar respuestas</button>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p id="popupMessage"></p>
+            <button id="popupButton" onclick="closePopup()">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
